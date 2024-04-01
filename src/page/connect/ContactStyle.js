@@ -118,19 +118,7 @@ overflow:hidden;
 	}
 
 	@media (max-width:728px) {
-        position: relative;
-        .button-wrapper{ 
-            button{
-                font-size:20px;
-            }
-        }
-		.contact-details{
-			width:170px;
-			font-size:20px;
-			overflow-wrap: break-word; 
-  /* word-break: break-all;  */
-				margin-left: 200px;
-		}
+		
 
         .contact-img{
         width: 100%; /* 화면이 728px 아래로 줄어들 때 이미지가 전체 폭을 차지하도록 설정 */
@@ -149,5 +137,49 @@ overflow:hidden;
        
 
     }
+
+	@media all and (min-width:480px) and (max-width:767px) { 
+        .contact-details{
+			width:48%;
+			font-size:20px;
+			overflow-wrap: break-word; 
+  			word-break: break-all; 
+			  strong{
+		margin-top:110px;
+		letter-spacing:10px;
+	}
+		}
+		.contact-img{
+			width: 100%; /* 화면이 728px 아래로 줄어들 때 이미지가 전체 폭을 차지하도록 설정 */
+        	padding-top: 0; /* 패딩값 조정 */
+        img{
+            width: 100%; /* 화면의 크기에 자동으로 맞춰짐 */
+            position: static; /* 이미지를 일반적인 문서 흐름에 포함되도록 바꿈 */
+            height: 600px;
+            max-width: 350px; /* 최대 크기 제한해서 이미지가 크게 확대되지 않도록 함 */
+            margin-top: 250px;
+			margin-left: 120px;
+			
+        }
+    }
+
+	}
+	@media all and (max-width:479px) { 
+        .contact-details{
+			width:auto;
+			font-size:20px;
+			overflow-wrap: break-word; 
+  			word-break: break-all; 
+		}
+		.contact-img{
+        img{
+           display:none;
+			
+        }
+    }
+	}
+
+
+
 
 `

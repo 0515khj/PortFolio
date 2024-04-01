@@ -14,9 +14,13 @@
 	 box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 	 overflow: hidden;
 	 
-	 @media (max-width: 728px) {
-	   width: 300px;
-	 }
+	 @media all and (min-width:480px) and (max-width:767px) { 
+		width: 350px;height:480px;
+       
+	}
+	@media all and (max-width:479px) { 
+		  width: 200px;height:420px;
+	}
    `;
    
    export const Chatbubble = styled.div`
@@ -40,9 +44,17 @@
 	   }
 	 }
    
-	 @media (max-width: 728px) {
-	   font-size: 12px;
-	 }
+	 
+	 @media all and (min-width:480px) and (max-width:767px) { 
+		
+		font-size:15px;
+	   padding: 6px 11px;
+}
+@media all and (max-width:479px) { 
+       font-size:10px;
+	   line-height:1.1;
+	   padding: 6px 11px;
+}
    `;
    
    export const AboutWrap = styled.div`
@@ -143,20 +155,28 @@
 	   }
 	 }
    
-	 @media (max-width: 728px) {
-	    position: relative;
-        .button-wrapper{ 
-            button{
-                font-size:20px;
-            }
-        }
-        
+	 @media (min-width:1550px){
+		.pic{display:none;}
+	 }
+	 @media all and (min-width:480px) and (max-width:767px) { 
+		position: relative;
 		.allp{top:20%; left:17%; 
 			p{left:43%; width:60px; height:20px;
 			}
 		}
 		.pic{display:none;}
        
-	 }
+}
+@media all and (max-width:479px) { 
+	position: relative;
+		.allp{
+			top:10%; left:17%; 
+			p{left:43%; width:30px; height:20px;
+			}
+		}
+		.pic{display:none;}
+       
+}
+
    `;
 

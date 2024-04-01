@@ -144,6 +144,23 @@ export const NavWrap = styled.nav`
    }
 
    }
+
+   @media all and (min-width:480px) and (max-width:767px) { 
+    .btn{
+    .button-wrapper{
+      button{ font-size:30px;}
+    }
+   }
+	}
+
+  @media all and (max-width:479px) { 
+    .btn{
+    .button-wrapper{
+      button{ font-size:10px;}
+    }
+    .button-wrapper button{letter-spacing:1px;}
+   }
+	}
     
 
 

@@ -29,19 +29,24 @@ const Contact = () => {
 </div>
 
 <div className={`contact-details ${ani3 ? 'move3' : ''}`}>
+
   <div className="head">
   <h3><span>Tel</span></h3>
   <p>010 6543 9118</p>
   </div>
+
   <div className="head">
   <h3><span>Email</span></h3>
   <p>kh32100@naver.com</p>
   </div>
+
   <div className="head">
   <h3><span>GIT</span></h3>
   <p><button onClick={()=>window.open(url)} className='git-button'>0515khj</button></p>
   </div>
+
   <strong>THANK YOU !</strong>
+  
 </div>
 
 

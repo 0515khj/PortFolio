@@ -25,7 +25,6 @@ background: #000;
     opacity: 1;
     strong{display:block;
         font-size:25px; font-weight:600;
-    padding-bottom:10px;
     margin-bottom:40px;
     }
     h2{border-top: 1px solid #fff;
@@ -88,7 +87,6 @@ animation: fly 0.5s ease-in forwards;
 .project-select{
     position:absolute; top:20%;right:-7%;
     display:flex;
-    margin-bottom:30px;
         flex-direction:column;
         justify-content:center;
         margin-top:20px;
@@ -141,22 +139,38 @@ animation: fly 0.5s ease-in forwards;
 			opacity: 1;
 		}};
 
-    @media (max-width:728px) {
-        position: relative;
-        
-        .button-wrapper{ 
-            button{
-                font-size:20px;
-            }
-        }
+
+    @media all and (min-width:480px) and (max-width:767px) { 
         .project-details{
-            h2{font-size:28px;}
-            p{ font-size:15px;}
-            .infop{font-size:18px;}
-            button{width:100px; font-size:17px;}
+            h2{font-size:30px;}
+            p{ font-size:17px; margin-bottom:30px;}
+            .infop{font-size:20px; margin-bottom:20px;}
+            button{width:100px; font-size:14px;}
+            strong{display:block;
+        font-size:25px; font-weight:900;
+    margin-bottom:30px;
+    }
         }
-
-
+        .project-select{
+            display:flex;
+            flex-direction:row;
+            position:absolute; top:80%; left:40%;
+            p{position:absolute; top:70%;}
+            button{
+                width:40px; height:20px;}
+        }
+	}
+	@media all and (max-width:479px) { 
+        .project-details{
+            h2{font-size:20px;}
+            p{ font-size:12px; margin-bottom:30px;}
+            .infop{font-size:15px; margin-bottom:20px;}
+            button{width:60px; font-size:14px;}
+            strong{display:block;
+        font-size:20px; font-weight:600;
+    margin-bottom:10px;
+    }
+        }
         .project-select{
             display:flex;
             flex-direction:row;
@@ -165,9 +179,7 @@ animation: fly 0.5s ease-in forwards;
             button{
                 width:25px; height:20px;}
         }
-    }
-
-
+	}
 
 `
 

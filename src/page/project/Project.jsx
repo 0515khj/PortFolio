@@ -26,22 +26,6 @@ const Project = () => {
         }
        }; 
        
-   /*  const handle = (index)=>{
-        if(index !== proidx){
-            setAni2(false);
-            setTimeout(()=>{
-                setProidx(index); // 선택한 프로젝트 업데이트
-                // setAni(true); //첫번째 애니메이션을 위한 state를 true로 설정
-            setTimeout(()=>{
-                setAni2(true); // 두번째 애니메이션을 위해 true 설정
-            },100)
-        },5)
-        }
-       };  */
-
-
-      
-
        useEffect(()=>{
         setTimeout(()=>{
             setAni(true);

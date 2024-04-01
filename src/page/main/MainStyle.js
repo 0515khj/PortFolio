@@ -50,10 +50,13 @@ export const Main2Wrap = styled.div`
 	opacity: 1;
 }
 
-@media (max-width:728px) {
-	.text span{
+@media all and (min-width:480px) and (max-width:767px) { 
+.text span{
 		font-size:60px;
 	}
+}
+@media all and (max-width:479px) { /*스타일입력*/
+.text span{ font-size:40px;}
 }
 
 
