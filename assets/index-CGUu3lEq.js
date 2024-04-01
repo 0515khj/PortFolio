@@ -597,6 +597,11 @@ animation: fly 0.5s ease-in forwards;
 	 box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 	 overflow: hidden;
 	 
+	 @media  all and (min-width:768px) and (max-width:1580px) {
+		width: 500px;height:550px;
+
+	 }
+
 	 @media all and (min-width:480px) and (max-width:767px) { 
 		width: 350px;height:480px;
        
@@ -624,7 +629,11 @@ animation: fly 0.5s ease-in forwards;
 		 opacity: 1;
 	   }
 	 }
-   
+
+	 @media  all and (min-width:768px) and (max-width:1580px) {
+		font-size:18px;
+	   padding: 8px 13px;
+}
 	 
 	 @media all and (min-width:480px) and (max-width:767px) { 
 		
@@ -734,7 +743,12 @@ animation: fly 0.5s ease-in forwards;
 	   }
 	 }
    
-	 @media (min-width:1550px){
+	 @media  all and (min-width:768px) and (max-width:1580px) {
+		.allp{top:20%; left:17%; 
+			p{left:43%; width:60px; height:20px;
+			}
+		}
+
 		.pic{display:none;}
 	 }
 	 @media all and (min-width:480px) and (max-width:767px) { 
