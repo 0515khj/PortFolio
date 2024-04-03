@@ -58,7 +58,7 @@ const About = () => {
         <div className={`pic ${ani2 ? 'move2' : ''}`}>
           <div className="pic2">
           <span> H E L L O !</span>
-          <img src="./images/aboutpic.jpg" alt="" />
+          <img src="./images/khj1.jpg" alt="" />
           </div>
         </div>
 

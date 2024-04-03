@@ -3,7 +3,7 @@ export default [
         id:1,
         turn:" 0 1 ~ 0 6 ",
         title:"Sudden-Attack",
-        info:"2023년에 제작한 리뉴얼한 서든어택 페이지 입니다. 회원가입 , 로그인 , 글작성 , 기능이 있습니다.  ",
+        info:"서든어택를 쇼핑몰처럼 리뉴얼한 프로젝트 입니다. 회원가입 , 로그인 , 글작성 기능이 있습니다.  ",
         infospan:"SuddenAttack",
         dec:"2023.12.02~2023.12.19",
         code:"Html,Css,React",
@@ -29,9 +29,23 @@ export default [
     ,
     {
         id:3,
-        turn:" 0 3 ~ 0 6 ",
+        turn:" 0 3  ~ 0 6 ",
+        title:"#NETFLIX",
+        info:"#Netflix 페이지 입니다. 영화 리스트 페이지 , 영화 상세 페이지 가 있습니다. ",
+        infospan:"NETFLIX",
+        dec:"2024.03.27~2024.03.29",
+        code:"HTML,CSS,REACT",
+        per:"Html,Css,React",
+        img:"./images/netflix.jpg",
+        view:"https://0515khj.github.io/NETFLIX/",
+        url:"https://github.com/0515khj/NETFLIX",
+    }
+    ,
+    {
+        id:4,
+        turn:" 0 4 ~ 0 6 ",
         title:"#마이리얼트립",
-        info:"#마이리얼트립 페이지 리뉴얼 결과물입니다.회원가입 , 로그인 , 글작성 , 기능이 있습니다.  ",
+        info:"#마이리얼트립 페이지 리뉴얼 결과물입니다.",
         infospan:"마이리얼트립",
         dec:"2023.10.24~2023.11.04",
         code:"HTML,CSS,JS",
@@ -42,10 +56,10 @@ export default [
     }
     ,
     {
-        id:4,
-        turn:" 0 4 ~ 0 6 ",
+        id:5,
+        turn:" 0 5 ~ 0 6 ",
         title:"#마이리얼트립M",
-        info:"#마이리얼트립 모바일 리뉴얼 결과물입니다.회원가입 , 로그인 , 글작성 , 기능이 있습니다.  ",
+        info:"#마이리얼트립 모바일 리뉴얼 결과물입니다. ",
         infospan:"마이리얼트립M",
         dec:"2023.11.05~2023.11.27",
         code:"HTML,CSS,JS",
@@ -53,20 +67,6 @@ export default [
         img:"./images/myreal.jpg",
         view:"https://0515khj.github.io/myrealtripM/",
         url:"https://github.com/0515khj/myrealtripM",
-    }
-    ,
-    {
-        id:5,
-        turn:" 0 5  ~ 0 6 ",
-        title:"#NETFLIX",
-        info:"#Netflix 페이지 입니다. ",
-        infospan:"NETFLIX",
-        dec:"2024.03.27~2024.03.29",
-        code:"HTML,CSS,REACT",
-        per:"Html,Css,React",
-        img:"./images/netflix.jpg",
-        view:"https://0515khj.github.io/NETFLIX/",
-        url:"https://github.com/0515khj/NETFLIX",
     }
     ,
     {
@@ -79,8 +79,8 @@ export default [
         code:"Html,Css,React",
         per:"Html,Css,React",
         img:"./images/hyunjin.png",
-        view:"",
-        url:"https://github.com/0515khj/SDproject/tree/master",
+        view:"https://0515khj.github.io/PortFolio/",
+        url:"https://github.com/0515khj/PortFolio/tree/master/src",
     }
     ,
 ]

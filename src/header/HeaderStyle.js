@@ -19,8 +19,10 @@ export const LayoutWrap = styled.div`
 }
 
 @keyframes up {
-    0% { transform: translateY(0); }
-    100% { transform: translateY(-100%); }
+    from{ transform: translateY(0);
+    }
+    to { transform: translateY(-100%); 
+    }
 }
 
 `
@@ -44,7 +46,7 @@ export const NavWrap = styled.nav`
 } 
 
 .btn{
-  opacity: 1;
+  opacity: 0;
      background: #000;
      padding-top: 25px;
      text-align: center;
@@ -108,7 +110,7 @@ export const NavWrap = styled.nav`
 	height: 2px;
 	background-color:#fff; 
 	position:absolute; bottom: 50%;
-	transition:all .5s ease-in; 
+	transition:all 0.5s ease-in; 
 }
 .button-wrapper:hover .buttonbottom {
 	width: 100%;
@@ -122,7 +124,7 @@ export const NavWrap = styled.nav`
 }
 
 .move2{
-	animation:fade 2s ease-in forwards;
+	animation:fade 1s ease-in forwards;
 	opacity: 1;
 	
 }

@@ -49,7 +49,7 @@ background: #000;
         border-radius:20px;
         text-align:center;
         border: 2px solid #000;
-        transition : background-color 0.5s ease, border-color 1s ease-in;
+        transition : background-color 0.5s ease, border-color 0.5s ease-in;
         cursor: pointer;
         &:hover{
             color:#fff;
