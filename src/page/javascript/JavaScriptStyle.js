@@ -124,13 +124,8 @@ height:100vh;
         100% {opacity: 1;}
     }
 
-    @media (max-width:728px) {
+    /* @media (max-width:728px) {
         position: relative;
-        .button-wrapper{ 
-            button{
-                font-size:20px;
-            }
-        }
         .javascrip-details{
             h2{font-size:28px;}
             p{ font-size:15px;}
@@ -147,6 +142,60 @@ height:100vh;
                 width:25px; height:20px;}
         }
 
+    } */
+    @media all and (min-width:769px) and (max-width:1024px){
+        .javascrip-details{
+            strong{ font-size:30px;}
+            h2{font-size:40px;}
+            p{ font-size:25px;}
+            .infop{font-size:30px;}
+            button{width:100px; font-size:17px;}
+        }
+
+        .javascrip-select{
+            display:flex;
+            flex-direction:row;
+            position:absolute; top:80%; left:40%;
+            p{position:absolute; top:70%;}
+            button{
+                width:50px; height:30px;}
+        }
+    }
+
+    @media all and (min-width:479px) and (max-width:768px) {
+        .javascrip-details{
+            h2{font-size:30px;}
+            p{ font-size:18px;}
+            .infop{font-size:20px;}
+            button{width:80px; font-size:17px;}
+        }
+
+        .javascrip-select{
+            display:flex;
+            flex-direction:row;
+            position:absolute; top:80%; left:40%;
+            p{position:absolute; top:70%;}
+            button{
+                width:30px; height:20px;}
+        }
+    }
+
+    @media all and (max-width:479px) {
+        .javascrip-details{
+            h2{font-size:28px;}
+            p{ font-size:15px;}
+            .infop{font-size:17px;}
+            button{width:60px; font-size:17px;}
+        }
+
+        .javascrip-select{
+            display:flex;
+            flex-direction:row;
+            position:absolute; top:80%; left:40%;
+            p{position:absolute; top:70%;}
+            button{
+                width:25px; height:20px;}
+        }
     }
 
 `
