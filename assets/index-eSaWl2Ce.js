@@ -218,7 +218,7 @@ Error generating stack: `+i.message+`
   @media all and (max-width:479px) { 
     .btn{
     .button-wrapper{
-      button{ font-size:10px;}
+      button{ font-size:16px;}
     }
     .button-wrapper button{letter-spacing:1px;}
    }
