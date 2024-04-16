@@ -4,6 +4,7 @@ import { GameItemWrap } from './GameStyle';
 const GameItem = ({item,flip,ck}) => {
     const {title , dec , img, infospan,url,info,code ,per,view}=item;   
     
+    
     return (
         <GameItemWrap>
             <li>
@@ -16,6 +17,7 @@ const GameItem = ({item,flip,ck}) => {
                             <img src={img} alt="" />
                             <span className="infospan" >{infospan}</span>
                             <p>click</p>
+                            
                         </div>
 
                         <div className="back">

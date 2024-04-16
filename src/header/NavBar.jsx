@@ -2,24 +2,6 @@ import {  useLocation, useNavigate } from "react-router-dom";
 import { NavWrap } from "./HeaderStyle";
 import { useEffect, useState } from "react";
 
-
-/* const Menubutton =({path , label , isActive , onClick})=>{
-    return(
-        <div className={`button-wrapper ${isActive ? 'active':''}`} onClick={()=>{onClick(path)}}>
-            <button>{label}</button>
-            <div className="buttonbottom"></div>
-            {isActive && <div className="buttonbottom active"></div>}
-        </div>
-);
-}; */
-
-/* const buttons = [
-    {path: '/about', label:'ABOUT'},
-    {path: '/project', label:'PROJECT'},
-    {path: '/javascript', label:'JAVASCRIPT'},
-    {path: '/contact', label:'CONTACT'},
-] */
-
 const NavBar = () => {
     const [ani , setAni ]= useState(false);
     const [motions , setMotions] = useState(false);
