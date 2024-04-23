@@ -34,7 +34,6 @@ height:100vh;
         font-weight:900;
         padding-top:30px;
         margin-bottom:30px;
-        font-family:cursive;
     }
     p{font-size:20px;margin-bottom:30px;}
     .infop{font-size:25px; margin-bottom:50px; line-height:1.5; width:100%; max-width:580px;

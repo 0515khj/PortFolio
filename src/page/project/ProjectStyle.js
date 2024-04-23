@@ -32,7 +32,6 @@ background: #000;
         font-weight:900;
         padding-top:30px;
         margin-bottom:30px;
-        font-family:cursive;
         letter-spacing:5px;
     }
     p{font-size:20px;margin-bottom:30px;}

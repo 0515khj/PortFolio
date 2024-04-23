@@ -48,6 +48,10 @@ overflow:hidden;
 			font-size:30px;
 			background: none;
 			cursor: pointer;
+			&:hover{ color: yellow;
+			transform:scale(1.2);
+			 text-decoration:line-through;
+			}
 			}
 	}
 	}
@@ -57,12 +61,6 @@ overflow:hidden;
 		letter-spacing:1rem;
 	}
   
-}
-.git-button{
-	&:hover{ color:#000;}
-}
-.git-button:hover {
-	font-family:cursive;
 }
 
 

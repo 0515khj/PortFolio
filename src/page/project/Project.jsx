@@ -3,8 +3,6 @@
 import { useEffect, useState } from "react";
 import { ProjectWrap } from "./ProjectStyle";
 import projectdata from "../../assets/api/projectdata";
-import { useNavigate } from "react-router-dom";
-import { ImSpinner11 } from "react-icons/im";
 
 const Project = () => {
     const [data,setData] =useState(projectdata);
@@ -40,7 +38,6 @@ const Project = () => {
 
 <div className={`project-details-container ${ani2 ? 'move2' : ''}`}>
 
-    {/* <div className={`project-details ${ani ? 'animate' : ''}`}> */}
     <div className="project-details">
      <strong>{data[proidx].turn}</strong>
      <h2>{data[proidx].title}</h2>

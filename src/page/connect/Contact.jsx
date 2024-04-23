@@ -42,7 +42,7 @@ const Contact = () => {
 
   <div className="head">
   <h3><span>GIT</span></h3>
-  <p><button onClick={()=>window.open(url)} className='git-button'>0515khj</button></p>
+  <p><button onClick={()=>window.open(url)} className='git'>0515khj</button></p>
   </div>
 
   <strong>THANK YOU !</strong>
